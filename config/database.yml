@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  username:
+  password:
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: propusk_kz_development
+
+test:
+  <<: *default
+  database: propusk_kz_test
+
+production:
+  <<: *default
+  database: propusk_kz_production

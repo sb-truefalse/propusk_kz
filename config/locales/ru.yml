@@ -1,0 +1,29 @@
+ru:
+  telegram:
+    bot:
+      propusks:
+        start:
+          title: "Информация о пропусках.\n
+          Используйте команду /iin или /grnz.\n
+          Для получения помощи выполните команду /help"
+        help:
+          title: "Информация о пропусках.\n
+          /iin информация об ИИН.\n
+          /grnz информация о ГРНЗ."
+        iin:
+          demo: "В режиме разработки. Скоро буду доступен!"
+          title: Номер ИИН 
+        iin_number:
+          success_data: "%{data}"
+          error_data: "%{error}"
+        grnz:
+          demo: "В режиме разработки. Скоро буду доступен!"
+          title: Номер ГРНЗ
+        grnz_number:
+          success_data: "%{data}"
+          error_data: "%{error}"
+        error:
+          server: "Ошибка бота"
+          action: "Неизвестное действие: %{command}"
+          command: "Неизвестная команда: %{command}"
+          input: "Неверный ввод"
